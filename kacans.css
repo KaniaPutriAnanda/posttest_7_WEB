@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DynaPuff&family=PT+Sans+Caption:wght@700&display=swap');
+
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #cbc0d3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+}
+
+.show {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #aa6ba4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+}
+
+.logo a {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    top: 10px;
+    padding: 0px 38px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #aa6ba4;
+}
+
+.logos a {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    top: 10px;
+    padding: 0px 38px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #cbc0d3;
+}
+
+.navi a {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    right: 90px;
+    text-align: right;
+    color: #aa6ba4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    top: 15px;
+    font-family: 'Concert One', cursive;
+}
+
+.navis a {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    right: 90px;
+    text-align: right;
+    color: #cbc0d3;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    top: 15px;
+    font-family: 'Concert One', cursive;
+}
+
+.navi a:hover {
+    border-bottom: 3px solid #a27dad;
+    transition: all .2s ease;
+}
+
+.navis a:hover{
+    border-bottom: 3px solid whitesmoke;
+    transition: all .2s ease;
+}
+    
+.kotak1 {
+    position: relative;
+    top: 400px;
+    left: 760px;
+    width: 130px;
+    height: 370px;
+    background: #da9abd;
+}
+
+.kotak2 {
+    position: relative;
+    bottom: 100px;
+    left: 930px;
+    width: 130px;
+    height: 370px;
+    background: #b196c1; 
+}
+
+.kotak3 {
+    position: relative;
+    bottom: 580px;
+    left: 1098px;
+    width: 130px;
+    height: 370px;
+    background: #f092a5; 
+}
+
+.kotak4 {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    top: -360px;
+    left: 150px;
+}
+
+.kotak5 {
+    position: relative;
+    top: -500px;
+    left: 850px;
+    width: 310px;
+    height: 440px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+.kotak6 {
+    position: relative;
+    top: -1800px;
+    left: 500px;
+    width: 310px;
+    height: 640px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+.kotak7 {
+    position: relative;
+    top: 140px;
+    left: 300px;
+    width: 310px;
+    height: 530px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+.kotak4 h1 {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    position: relative;
+    color: whitesmoke;
+    top: 20px;
+    left: 0px;
+
+
+}
+
+.kotak4 b {
+    font-family: 'Concert One', cursive;
+    position: relative;
+
+}
+
+.kotak4 i {
+    position: relative;
+    float: left;
+
+
+}
+
+#igLogo {
+    top: 30px;
+    left: 29px;
+
+
+}
+
+#waLogo {
+    top: 70px;
+    left: 13px;
+}
+
+#emailLogo {
+    top: 85px;
+    left: 27px;
+}
+
+#locLogo {
+    top: 123px;
+    right: -12px;
+}
+
+#uname {
+    top: 17px;
+    left: 20px;
+}
+
+#waNo {
+    top: 56px;
+    left: -90px;
+}
+
+#email {
+    top: 73px;
+    left: 20px;
+}
+
+#loc {
+    top: 90px;
+    left: 49px;
+}
+
+
+.header1 p {
+    float: left;
+    left: -140px;
+    margin-top: 180px;
+    padding: 0px 38px;
+    text-align: center;
+    position: relative;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+    font-size: 35px;
+}
+
+.header2 h1 {
+    float: left;
+    right: 455px;
+    position: relative;
+    margin-top: 170px;
+    padding: 0px 38px;
+    font-size: 40px;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+
+}
+
+.header3 {
+    float: left;
+    top: -30px;
+    left: -190px;
+    margin-left: 270px;
+    position: relative;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+
+}
+
+.kotak1 img {
+    position: relative;
+    top: -660px;
+}
+
+.kotak2 img {
+    position: relative;
+    top: -290px;
+}
+
+.kotak3 img {
+    position: relative;
+    top: -180px;
+    margin-right: -5px;
+}
+
+.kotak2 h2 {
+    position: relative;
+    float: left;
+    top: -295px;
+    float: left;
+    left: 25px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+
+.kotak2 b {
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    top: -310px;
+    font-size: 10px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+
+.kotak3 h2 {
+    position: relative;
+    float: left;
+    margin-top: -170px;
+    left: 25px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+
+.kotak3 b {
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-top: -155px;
+    top: 20px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: 'Concert One', cursive;
+}
+
+.foto {
+    position: relative;
+    float: left;
+    left: -500px;
+    margin-top: 25px;
+}
+
+.foto1 {
+    position: relative;
+    float: left;
+    top: -400px;
+}
+
+#foto2 {
+    top: 90px;
+    position: relative;
+    right: -200px;
+
+}
+
+.foto3 {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.foto3 img {
+    border-radius: 50px;
+}
+
+.key {
+    position: relative;
+    float: right;
+    top: 40px;
+    right: -190px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+    font-size: 160px;
+}
+
+.capt {
+    position: relative;
+    float: right;
+    top: -170px;
+    right: 310px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+}
+
+.biodata {
+    position: relative;
+    float: left;
+    top: -10px;
+    left: 465px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+    font-size: 15px;
+}
+
+.footer p {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    padding-top: 10px;
+    margin-right: 100px;
+    margin-top: 900px;
+    width: 1100px;
+    height: 30px;
+    left: 90px;
+    background-color: #d26ba0;
+    bottom: -100px;
+}
+
+.footer2 p {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 900px;
+    width: 1100px;
+    height: 30px;
+    left: 90px;
+    background-color: #d26ba0;
+    bottom: -100px;
+}
+
+.footer3 p {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 900px;
+    width: 1100px;
+    height: 30px;
+    left: 90px;
+    background-color: #d26ba0;
+    bottom: -100px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    top: 38px;
+    right: 80px;
+    transform: translate(-50%, -50%);
+}
+
+.teks3 {
+    position: relative;
+    top: -500px;
+    left: 900px;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+  }
+
+.teks4 {
+    position: relative;
+    padding-left: 200px;
+    top: 120px;
+    left: -120px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Concert One', cursive;
+
+}
+
+  input {
+    position: relative;
+    width: 100%;
+    margin: 2px;
+    /* border: none; */
+    /* outline: none; */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+ }
+ 
+ select {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+ }
+
+ label {
+    font-size: 15px;
+    color: #d26ba0;
+    padding-top: 200px;
+    font-family: 'Concert One', cursive;
+ }
+
+ #button1 {
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    background-color: #aa6ba4;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+ 
+.hasil {
+    position: relative;
+    top: -20px;
+    left: 500px;
+    padding: 10px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.chingu {
+    position: relative;
+    font-family: 'Concert One', cursive;
+    top: 40px;
+    padding: 3px;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.hr {
+    position: relative;
+    left: -505px;
+}
+
+/* CATEGORY'S */
+
+.kotak6 p {
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #d26ba0;
+}
+
+.album1 {
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+.album1 h3 {
+    position: relative;
+    left: 180px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album2 {
+    position: relative;
+    left: 500px;
+    top: -297px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album3 {
+    position: relative;
+    left: 900px;
+    top: -680px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album4 {
+    position: relative;
+    left: 110px;
+    top: -600px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album5 {
+    position: relative;
+    left: 500px;
+    top: -935px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album6 {
+    position: relative;
+    left: 900px;
+    top: -1270px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album7 {
+    position: relative;
+    left: 110px;
+    top: -1225px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album8 {
+    position: relative;
+    left: 500px;
+    top: -1580px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.album9 {
+    position: relative;
+    left: 900px;
+    top: -1940px;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+}
+
+.slider {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: url(https://i.pinimg.com/564x/aa/8e/e5/aa8ee5244faf62d4cb1bc70fe41b754a.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url(https://i.pinimg.com/564x/fe/9b/6c/fe9b6c495c00f64d0d7ae4fba3bcdb2c.jpg);
+    }
+
+    50% {
+        background: url(https://i.pinimg.com/564x/24/39/7f/24397f1cb877d2f6fcab4d8b8b500fba.jpg);
+    }
+
+    75% {
+        background: url(https://i.pinimg.com/564x/ef/4d/20/ef4d203a39f3514d37efef6125a533c9.jpg);
+    }
+
+    100% {
+        background: url(https://i.pinimg.com/564x/aa/8e/e5/aa8ee5244faf62d4cb1bc70fe41b754a.jpg);
+    }
+}
+
+/* show2 */
+
+.show2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: #cbc0d3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+
+}
+
+table {
+position: relative;
+ z-index: 2;
+ /* left: 50%; */
+ /* top: 0px; */
+ /* transform: translate(-50%,-50%); */
+ /* width: 60%;  */
+ border-collapse: collapse;
+ /* border-spacing: 0; */
+ /* box-shadow: 0 2px 15px rgba(64,64,64,.7); */
+ /* border-radius: 12px 12px 0 0; */
+ /* overflow: hidden; */
+}
+
+td , th{
+    padding: 15px 20px;
+    text-align: center;
+    
+   
+   }
+   th{
+    background-color: #b196c1;
+    color: #fafafa;
+    font-family: 'Concert One', cursive;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+   }
+   tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Concert One', cursive;
+    color: #aa6ba4;
+   }
+   tr:nth-child(even){
+    background-color: #eeeeee;
+   }
+
+.order {
+    position: relative;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+    font-size: 20px;
+    top: 80px;
+    left: 300px;
+}
+
+.ikon i{
+    position: relative;
+    float: right;
+    right: -7px;
+    top: 8px;
+}
+
+/* edit */
+
+.edit {
+    position: relative;
+    font-family: 'Concert One', cursive;
+    color: whitesmoke;
+    font-size: 40px;
+    top: 130px;
+    left: 380px;
+}
+
+/* edit2 */
+.kotak8 {
+    position: relative;
+    top: 120px;
+    left: 500px;
+    width: 310px;
+    height: 420px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.teks5 {
+    position: relative;
+    top: 110px;
+    left: 350px;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+}
+
+/* Regis */
+
+.kotak9 {
+    position: relative;
+    top: 80px;
+    left: 220px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.kotak10 {
+    width: 500px;
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+.judul {
+    position: relative;
+    font-family: 'Concert One', cursive;
+    color: #d26ba0;
+    left: 170px;
+}
+
+.kotak10 p{
+    position: relative;
+    top: 30px;
+    font-family: 'Concert One', cursive;
+    color: #d26ba0;
+}
+
+/* login */
+
+.kotak11 {
+    position: relative;
+    top: 100px;
+    left: 220px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.kotak11 p {
+    top: 30px;
+    position: relative;
+    font-family: 'Concert One', cursive;
+    color: #d26ba0;
+    left: 20px;
+}
+
+.kotak11 h3{
+    position: relative;
+    text-align: center;
+    left: 15px;
+    font-family: 'Concert One', cursive;
+    color: #d26ba0;
+    font-size: 35px;
+}
+
+.kotak11 input{
+    margin-top: 20px;
+    left: 20px;
+}
+
+.kotak11 button{
+    left: 20px;
+}
+
+/* main */
+
+.header1main p {
+    float: left;
+    left: -140px;
+    margin-top: 180px;
+    padding: 0px 38px;
+    text-align: center;
+    position: relative;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+    font-size: 35px;
+}
+
+.header2main h1 {
+    position: relative;
+    float: left;
+    right: 455px;
+    top: 185px;
+    padding: 0px 38px;
+    font-size: 40px;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+}
+
+.header3main {
+    position: relative; 
+    float: left;
+    top: 215px;
+    left: -830px;
+    color: #d26ba0;
+    font-family: 'Concert One', cursive;
+
+}
+
+.fotomain {
+    position: relative;
+    float: left;
+    left: -460px;
+    top: 205px;
+}
+
+#nct img{
+    position: relative;
+    top: -460px;
+}
+
+#rv img{
+    position: relative;
+    top: -90px;
+}
+
+#exo img{
+    position: relative;
+    top: 20px;
+}
+
+.exo {
+    position: relative;
+    float: left;
+    top: 200px;
+    left: 0px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+
+.rv {
+    position: relative;
+    float: left;
+    top: 200px;
+    left: 0px;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
